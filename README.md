@@ -53,7 +53,7 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align="center">
-  <img width=390 src="https://github-readme-streak-stats-AmanMaheshSingh.vercel.app/?user=AmanMaheshSingh&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
+  <img width="390" src="https://github-readme-streak-stats.herokuapp.com?user=AmanMaheshSingh&theme=react&border_radius=10" alt="streak stats" />
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=AmanMaheshSingh&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub stats" />
   <br/>
   <img width="325" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanMaheshSingh&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10" alt="top langs" />
