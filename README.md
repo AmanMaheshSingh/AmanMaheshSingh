@@ -43,8 +43,8 @@
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img src="https://github.com/AmanMaheshSingh/AmanMaheshSingh/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="snake animation light" />
-  <img src="https://github.com/AmanMaheshSingh/AmanMaheshSingh/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="snake animation dark" />
+  <!-- 🧡 Orange Snake Animation -->
+  <img src="https://raw.githubusercontent.com/AmanMaheshSingh/AmanMaheshSingh/output/snake.svg" alt="orange snake animation" />
   <br/><br/><br/>
 </div>
 
@@ -53,17 +53,18 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align="center">
-  <img width="390" src="https://github-readme-streak-stats.herokuapp.com?user=AmanMaheshSingh&theme=react&border_radius=10" alt="streak stats" />
+  <!-- 🩵 Fixed Streak Stats (uses reliable mirror) -->
+  <img width="390" src="https://streak-stats.demolab.com?user=AmanMaheshSingh&theme=react&border_radius=10" alt="streak stats" />
+
   <img width="390" src="https://github-readme-stats.vercel.app/api?username=AmanMaheshSingh&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub stats" />
+
   <br/>
-  <img width="325" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanMaheshSingh&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10" alt="top langs" />
+  <img width="325" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanMaheshSingh&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10" alt="top langs" />
 </div>
 
 <br/><br/>
 
 <hr/>
-
-<br/>
 
 <div align="center">
   <a href="https://ko-fi.com/V7V4RAK9C" target="_blank">
