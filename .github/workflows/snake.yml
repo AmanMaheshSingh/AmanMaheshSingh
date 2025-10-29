@@ -1,38 +1,28 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
-name: Generate Snake
+name: 🐍 Generate Orange Snake
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */6 * * *"
-  workflow_dispatch: # Allows manual trigger
-  push:
-    branches:
-      - main # Runs also on push to main branch
+    - cron: "0 */6 * * *"   # ⏰ runs every 6 hours
+  workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate Snake animation
+      - name: Generate snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: AmanMaheshSingh
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          outputs: dist/snake.svg
+          palette: orange   # 🎨 orange color theme
 
-      - name: Push snake files to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with: 
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
